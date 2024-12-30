@@ -86,7 +86,7 @@ function drawShape(vertices: { x: number, y: number }[]): void {
     ctx.closePath();
 
     // Set the color to yellow for the stroke and fill
-    ctx.strokeStyle = 'yellow';  // Color of the rectangle's border
+    ctx.strokeStyle = 'black';  // Color of the rectangle's border
     ctx.fillStyle = 'yellow';    // Color to fill the rectangle
 
     // Fill and stroke the rectangle

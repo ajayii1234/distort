@@ -74,7 +74,7 @@ function drawShape(vertices) {
     });
     ctx.closePath();
     // Set the color to yellow for the stroke and fill
-    ctx.strokeStyle = 'yellow'; // Color of the rectangle's border
+    ctx.strokeStyle = 'black'; // Color of the rectangle's border
     ctx.fillStyle = 'yellow'; // Color to fill the rectangle
     // Fill and stroke the rectangle
     ctx.fill();
